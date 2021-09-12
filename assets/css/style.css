@@ -90,7 +90,9 @@ header .overlay {
     }
 }*/
 
-@media (max-width: 767px) {
+/* # 767px */
+
+@media (max-width: 120px) {
     header {
         background: url('../media/background_image.jpg') black no-repeat 90% 50% scroll;
     }
@@ -106,6 +108,7 @@ header .overlay {
     transition: opacity 400ms ease-out;
     padding: 0 !important;
 }
+
 
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -184,6 +187,10 @@ nav {
 }
 
 @media print, screen and (max-width: 1200px) {
+
+    .navbar-custom {
+        padding: 10px 60px 10px 0px !important;
+    }
 
     .profile h1 {
         font-size: 35px;
@@ -443,13 +450,27 @@ a {
 
 
 .resume {
-    position:absolute; 
+    position:relative; 
+    margin-top: 0px;
     margin-left:auto;
 }
 
 
+@media (max-width: 380px) {
+    .cc-email {
+        margin: 10px 200px;
+    }
+    .cc-github {
+        margin: 10px 140px;
+    }
+    .cc-linkedin{
+        margin: 10px 80px;
+    }
+}
 
 .footer {
     padding: 20px 0;
     background-color: #f5f5f5;
+    position: relative;
+    text-align: center;
 }
