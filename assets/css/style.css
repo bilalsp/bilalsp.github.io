@@ -456,7 +456,7 @@ a {
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 700px) {
     .cc-email {
         margin: 10px 200px;
     }
