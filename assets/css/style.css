@@ -442,6 +442,13 @@ a {
 }
 
 
+.resume {
+    position:absolute; 
+    margin-left:auto;
+}
+
+
+
 .footer {
     padding: 20px 0;
     background-color: #f5f5f5;
